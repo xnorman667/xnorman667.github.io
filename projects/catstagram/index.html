@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <!--NOT VISIBLE TO THE USER-->
+    <head>
+
+        <meta charset="UTF-8">
+        <title>Catsagram</title>
+        <link rel="icon" type="image/png" href="favicon.ico">
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+        <script src="./javascript/brains.js"></script>
+        <style>
+          .brand-font{
+            font-family:italic ;
+          }
+          .img{
+           width:300px;
+          }
+          .caption{
+            margin-bottom:70px;
+          }
+          .pic-continer{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+          }
+        </style>
+        
+      </head>
+
+    <!--VISIBLE TO THE USER-->
+    <body>
+
+        <h1 class="brand-font">Catstagram</h1>
+        <h5 class="brand-font">Sharing the Worlds cats</h5>
+        <!--PICTUE CONTAINER-->
+        <div class="pic-container">
+        <!--Cat Photo 1-->
+           <img src="https://i.ytimg.com/vi/uHKfrz65KSU/maxresdefault.jpg">
+       
+           <div id="likeCount1"></div>
+       
+           <button id="likeBtn">Like</button>
+           <p class="caption">Get Creative</p>
+        <!--Cat Photo 2-->
+           <img src="https://images.unsplash.com/photo-1529778873920-4da4926a72c2?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y3V0ZSUyMGNhdHxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80">
+           <div id="likeCount2"></div>
+       
+           <button id="likeBtn">Like</button>
+           <p class="caption">Sooooo Cute</p>
+        <!--Cat Photo 3-->
+          <img src="https://c.files.bbci.co.uk/12A9B/production/_111434467_gettyimages-1143489763.jpg">
+          <div id="likeCount3"></div>
+       
+          <button id="likeBtn">Like</button>
+          <p class="caption">Cuddly but Fierce</p>
+        <!--Cat Photo 4-->
+          <img src="https://www.humanesociety.org/sites/default/files/styles/1240x698/public/2020-07/kitten-510651.jpg?h=f54c7448&itok=ZhplzyJ9">
+          <div id="likeCount4"></div>
+       
+          <button id="likeBtn">Like</button>
+          <p class="caption">I'm a lion RAWR!</p>
+          <!--Cat Photo 5-->
+          <img src="https://ychef.files.bbci.co.uk/976x549/p07ryyyj.jpg">
+          <div id="likeCount5"></div>
+       
+          <button id="likeBtn">Like</button>
+          <p class="caption">I deserve Praise mew!</p>
+          </div>
+
+ </body>
+
+</html>
